@@ -29,7 +29,7 @@ def process_data():
    
     current_dir = os.getcwd()
     # parent = os.path.dirname(current_dir)
-    pokemon_dir = os.path.join(current_dir, 'Ukiyoe')
+    pokemon_dir = os.path.join(current_dir, 'Ukiyo_e')
     images = []
     for each in os.listdir(pokemon_dir):
         images.append(os.path.join(pokemon_dir,each))
